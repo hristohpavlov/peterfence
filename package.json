@@ -1,0 +1,48 @@
+{
+  "name": "defence-front-end",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@popperjs/core": "^2.11.6",
+    "@reduxjs/toolkit": "^1.8.2",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.3",
+    "classnames": "^2.3.1",
+    "mongodb": "^4.8.1",
+    "mongoose": "^6.5.1",
+    "next": "12.1.6",
+    "next-optimized-images": "^2.6.2",
+    "next-themes": "^0.2.1",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.6.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.4.4",
+    "react-scroll-parallax": "^3.3.2",
+    "webp-loader": "^0.6.0",
+    "webpack": ">=4.3.0 <5.0.0",
+    "webpack-cli": "*"
+  },
+  "devDependencies": {
+    "@types/node": "18.0.0",
+    "@types/react": "18.0.14",
+    "@types/react-dom": "18.0.5",
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.52.3",
+    "typescript": "4.7.4"
+  }
+}

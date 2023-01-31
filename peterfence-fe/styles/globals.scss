@@ -23,6 +23,12 @@
   --paralax7: url("/static/2_6_mountain.png");
   --paralax8: url("/static/2_7_mountain.png");
   --paralax9: url("/static/2_8_mountain.png");
+  --gradient1: #FFC39E;
+  --gradient2: #EF8D9C;
+  --color-1-text: #e4d37c;
+  --color-2-text: #321126;
+  --color-3-text: #e1d68d;
+  --color-4-text: #2c1524;
 }
 
 [data-theme='dark'] {
@@ -47,6 +53,12 @@
   --paralax7: url("/static/2_6_mountain_dark.png");
   --paralax8: url("/static/2_7_mountain_dark.png");
   --paralax9: url("/static/2_8_mountain_dark.png");
+  --gradient1: #051443;
+  --gradient2: #100d3c;
+  --color-1-text: #e9e6d7;
+  --color-2-text: #1a114a;
+  --color-3-text: #d5d5d0;
+  --color-4-text: #1b144b;
 }
 
 html,

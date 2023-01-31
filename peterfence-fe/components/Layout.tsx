@@ -4,21 +4,34 @@ import Header from "./Header";
 import styles from '../styles/Home.module.scss';
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
+import { ToastContainer } from "react-toastify";
 
 const Layout = ({ children }: any) => {
     const [navbar, setNavbar] = useState(0);
+    const [currTheme, setCurrTheme] = useState<String | undefined>('');
     const { theme, setTheme } = useTheme();
-    console.log(theme)
+    useEffect(() => {
+        setCurrTheme(theme);
+    },[theme])
     return (
         <>
+            <ToastContainer className={classNames("toast_position",styles.toast_position)}/>
             <Header scrollPos={navbar} />
             <main>
                 <div className={classNames("container", styles.container_center)}>
-                    {theme === 'dark' ? <div className={classNames("moon", styles.moon)}></div> : <div className={classNames("sun", styles.sun)}></div>
-                    }
-
+                    {currTheme === 'dark' && <div className={classNames("moon", styles.moon)}></div>}
+                    {currTheme === 'light' && <div className={classNames("sun", styles.sun)}></div>}
                 </div>
-                {navbar < 150 && <div className={classNames("scroll_down", styles.scroll_down)}></div>}
+                <div className={classNames("container", styles.container_text)}>
+                    {navbar < 200 && <h2 className={classNames("title", styles.title_text)}>
+                        <span className={classNames("title_word title_word_1", styles.title_word, styles.title_word_1)}>Peter</span>
+                        <span className={classNames("title_word title_word_2", styles.title_word, styles.title_word_2)}>fence</span>
+                    </h2>
+                    }
+                </div>
+                <div className={classNames("container", styles.container_center)}>
+                {navbar < 50 && <div className={classNames("scroll_down", styles.scroll_down)}></div>}
+                </div>
                 <div onScroll={(e) => { const element = e.target as HTMLInputElement; setNavbar(element.scrollTop) }} className={classNames("parallax", styles.parallax)}>
                     <div className={classNames("parallax_layer parallax_layer_0", styles.parallax_layer, styles.parallax_layer_0)}>
                         {/* {theme === 'dark' ? <img src="/static/1_moon.png" /> : <img src="/static/1_sun.png" />} */}

@@ -34,9 +34,7 @@ const Header = (props: HeaderProps) => {
         var today = new Date(),
             time = today.getHours();
         setDate(time);
-        if(!localStorage.getItem('theme')){
-
-        
+        if(localStorage.getItem('theme') === null){
         if (time > 6 && time < 18) {
             setTheme("light");
         } else if (date < 18 || date > 6) {

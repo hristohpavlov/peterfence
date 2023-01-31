@@ -368,12 +368,6 @@
   transform: rotate(45deg);
 }
 
-.card_img_top {
-  width: 100%;
-  max-height: 185px;
-  object-fit: cover;
-}
-
 .container_text {
   display: grid;
   place-items: center;  
@@ -422,9 +416,10 @@
 }
 
 .img {
-  height: auto;
-  max-width: 100%;
   vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .btn {
@@ -506,4 +501,7 @@
   font-size: 13px;
   margin-top: 35px;
   text-align: center;
+}
+.card_image{
+  max-height: 194px;
 }

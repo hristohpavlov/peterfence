@@ -23,7 +23,7 @@ const Layout = ({ children }: any) => {
                     {currTheme === 'light' && <div className={classNames("sun", styles.sun)}></div>}
                 </div>
                 <div className={classNames("container", styles.container_text)}>
-                    {navbar < 200 && <h2 className={classNames("title", styles.title_text)}>
+                    {navbar < 80 && <h2 className={classNames("title", styles.title_text)}>
                         <span className={classNames("title_word title_word_1", styles.title_word, styles.title_word_1)}>Peter</span>
                         <span className={classNames("title_word title_word_2", styles.title_word, styles.title_word_2)}>fence</span>
                     </h2>

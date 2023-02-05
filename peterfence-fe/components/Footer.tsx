@@ -42,7 +42,7 @@ const Footer = () => {
                     <h6 className="text-uppercase mb-4 font-weight-bold">Contact Us</h6>
                     <p><FontAwesomeIcon icon={faHome} className="mr-3"/> Aberdeen, AB24 5PR, UK</p>
                     <p><FontAwesomeIcon icon={faEnvelope} className="mr-3"/> peterfence@yahoo.com</p>
-                    <p><FontAwesomeIcon icon={faPhone} className="mr-3"/> +359893297551</p>
+                    <p><FontAwesomeIcon icon={faPhone} className="mr-3"/> 07955 398345</p>
                 </div>
                 </div>
             </section>

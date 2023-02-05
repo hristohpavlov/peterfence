@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.scss';
 import { Parallax, ParallaxBanner, useParallax } from "react-scroll-parallax";
 import classNames from 'classnames';
 import { LegacyRef, useEffect, useRef, useState } from 'react';
+import ContactUsModal from '../components/ContactUsModal';
 
 const About: NextPage = () => {
     
@@ -66,7 +67,8 @@ const About: NextPage = () => {
                                 <div className={classNames("divider",styles.divider)}></div>
                                 <br/>
                                 <div className="text-center">
-                        <a href="#" className="btn btn-lg btn-outline-light text-center">Contact Us</a>
+                                    <ContactUsModal></ContactUsModal>
+                        {/* <a href="#" className="btn btn-lg btn-outline-light text-center">Contact Us</a> */}
                         </div>
         </div>
     </section>

@@ -17,8 +17,7 @@ const Footer = () => {
                     PETERFENCE
                     </h6>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit.
+                    The highest quality manufacturer and supplier of wooden fencing designed for agricultural and rural communities as well as  the modern gardener intending to secure property boundaries 
                     </p>
                 </div>
 
@@ -27,33 +26,23 @@ const Footer = () => {
                 <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                     <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
                     <p>
-                    <a className="text-white">Shop</a>
+                    <a className="text-white" href="/">Home</a>
                     </p>
                     <p>
-                    <a className="text-white">Home page</a>
+                    <a className="text-white" href="/shop">Shop</a>
                     </p>
-                </div>
-
-                <hr className="w-100 clearfix d-md-none" />
-
-                <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                    <h6 className="text-uppercase mb-4 font-weight-bold">
-                    Useful links
-                    </h6>
+                    <p>
+                    <a className="text-white" href="/shop">About us</a>
+                    </p>
                     
-                    <p>
-                    <a className="text-white">Shop Now</a>
-                    </p>
-                    <p>
-                    <a className="text-white">About us</a>
-                    </p>
                 </div>
                 <hr className="w-100 clearfix d-md-none" />
 
                 <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                    <p><FontAwesomeIcon icon={faHome} className="mr-3"/> Address, NY 10012, US</p>
-                    <p><FontAwesomeIcon icon={faEnvelope} className="mr-3"/> info@gmail.com</p>
+                    <h6 className="text-uppercase mb-4 font-weight-bold">Contact Us</h6>
+                    <p><FontAwesomeIcon icon={faHome} className="mr-3"/> Aberdeen, AB24 5PR, UK</p>
+                    <p><FontAwesomeIcon icon={faEnvelope} className="mr-3"/> peterfence@yahoo.com</p>
+                    <p><FontAwesomeIcon icon={faPhone} className="mr-3"/> +359893297551</p>
                 </div>
                 </div>
             </section>

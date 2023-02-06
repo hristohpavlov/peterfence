@@ -56,7 +56,7 @@ const Header = (props: HeaderProps) => {
             <Navbar collapseOnSelect sticky="top" expand="lg" bg="dark" variant="dark" className={classNames(scrolling ? "active" : "transparent")}>
                 <Container style={{ maxWidth: "unset" }}>
                     {currTheme === 'dark' && <Navbar.Brand href="/"><img src="/static/peterfence-only-logo-dark.png" style={{maxHeight: '50px', minWidth: '60px', marginTop: '-10px', marginBottom: '-10px'}}/></Navbar.Brand>}
-                    {currTheme === 'light' && <Navbar.Brand href="/"><img src="/static/logo-pf-final.png"  style={{maxHeight: '77px', minWidth: '90px', marginTop: '-20px', marginBottom: '-20px', marginLeft: '-25px'}}/></Navbar.Brand>}
+                    {currTheme === 'light' && <Navbar.Brand href="/"><img src="/static/logo-pf-final.png"  style={{maxHeight: '66px', minWidth: '75px', marginTop: '-20px', marginBottom: '-20px', marginLeft: '-25px'}}/></Navbar.Brand>}
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className="d-flex d-lg-none flex-column justify-content-around">
                         <span className="toggler-icon top-bar"></span>
                         <span className="toggler-icon middle-bar"></span>

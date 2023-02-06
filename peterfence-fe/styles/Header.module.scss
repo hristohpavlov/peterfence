@@ -2,13 +2,13 @@
   @media (max-width: 991px) {
     .navbar-collapse {
       position: fixed;
-      top: 56px;
+      top: 55px;
       right: 0;
       padding-left: 15px;
       padding-right: 15px;
       padding-bottom: 15px;
       width: 100%;
-      background:rgba(0, 0, 0, 0.5)!important;;
+      background:#242526!important;
       max-width: 320px;
       height: 100vh;
       overflow-y: auto;
@@ -85,7 +85,7 @@
            box-shadow: none;
          }
     }
-    background: rgba(0, 0, 0, 0.5)!important;
+    background:#242526!important;
     --bs-navbar-color: rgba(255, 255, 255, 0.55);
     --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
     --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
@@ -98,7 +98,7 @@
   @media (max-width: 991px) {
     .navbar-collapse {
       position: fixed;
-      top: 54px;
+      top: 55px;
       right: 0;
       padding-left: 15px;
       padding-right: 15px;
@@ -258,4 +258,21 @@ input:checked + .slider:before {
   transform: translateX(1.5em);
   background: #303136;
   box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -5px 0 0 #a3dafb;
+}
+@media (max-width: 991px) {
+.navbar-nav {
+  align-items: center !important;
+  padding: 5px !important;
+}
+.nav-link {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  padding: 20px !important;
+}
+}
+
+@media (max-width: 991px) {
+  .switch {
+    margin: 15px !important;
+  }
 }

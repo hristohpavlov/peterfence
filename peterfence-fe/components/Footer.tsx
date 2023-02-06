@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <footer
           className="text-center text-lg-start text-white"
-          style={{backgroundColor: "#212529", marginTop: "40vh"}}
+          style={{backgroundColor: "#242526", marginTop: "40vh"}}
           >
             <div className="container p-4 pb-0">
             <section className="">

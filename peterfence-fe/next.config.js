@@ -2,7 +2,6 @@
 const path = require('path');
 
 const nextConfig = {
-  target: 'serverless',
   reactStrictMode: true,
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
@@ -10,3 +9,7 @@ const nextConfig = {
 }
 
 module.exports = nextConfig;
+
+module.exports = {
+  target: 'serverless'
+};

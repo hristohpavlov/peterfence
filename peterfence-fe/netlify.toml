@@ -4,5 +4,4 @@
 [build.environment]
     NPM_FLAGS="--version"
 [[plugins]]
-    package = "./plugins/pnpm-preinstaller"
-    package = "@netlify/plugin-nextjs"
+    package = "./plugins/pnpm-preinstaller", "@netlify/plugin-nextjs"

@@ -1,3 +1,8 @@
 [build]
-    command = "CI= npm run build"
-    publish = "peterfence-fe/out"
+    command = "npm run build"
+    publish = "out"
+[build.environment]
+    NPM_FLAGS="--version"
+[[plugins]]
+    package = "./plugins/pnpm-preinstaller"
+    package = "@netlify/plugin-nextjs"

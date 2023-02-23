@@ -11,7 +11,8 @@ export default function Admin(){
                     <h2 className="p-3">Admin Panel</h2>
                 </div>
                 <div className="card-body">
-                    <form name="account" action="/api/login" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <form name="contact-form" action="/api/login" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <input type='hidden' name='form-name' value='contact-form' />
                     <div className="mb-4">
                         <label htmlFor="email" className="form-label">Email</label>
                         <input type="email" name="email" className="form-control" id="email" />

@@ -1,6 +1,8 @@
 import mongoose from "mongoose";
 
 const connection={};
+const dotenv = require("dotenv");
+dotenv.config();
 
 async function connect(){
     if(connection.isConnected){

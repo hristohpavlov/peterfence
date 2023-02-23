@@ -4,6 +4,10 @@
     framework = "#static"
 [build.environment]
     NPM_FLAGS="--version"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
 [[plugins]]
     package = "@netlify/plugin-nextjs"
 [[plugins]]

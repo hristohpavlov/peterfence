@@ -11,5 +11,6 @@ const nextConfig = {
 module.exports = nextConfig;
 
 module.exports = {
-  target: 'serverless'
+  target: 'serverless',
+  target: "experimental-serverless-trace",
 };

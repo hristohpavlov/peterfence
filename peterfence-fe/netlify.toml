@@ -1,6 +1,7 @@
 [build]
-    command = "npm run build"
-    publish = "peterfence-fe/out"
+    command = "pnpm run build"
+    publish = "out"
+    framework = "#static"
 [build.environment]
     NPM_FLAGS="--version"
 [[plugins]]

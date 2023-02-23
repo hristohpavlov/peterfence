@@ -8,7 +8,3 @@
     package = "@netlify/plugin-nextjs"
 [[plugins]]
     package = "./plugins/pnpm-preinstaller"
-[[redirects]]
-   from = "/*"
-   to = "/"
-   status = 200

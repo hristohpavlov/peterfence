@@ -7,3 +7,11 @@
     package = "@netlify/plugin-nextjs"
 [[plugins]]
     package = "./plugins/pnpm-preinstaller"
+[[redirects]]
+    from = "/api/login"
+    to = "/admin/panel"
+    status = 200
+[[redirects]]
+    from = "/api/login"
+    to = "/unauthorized"
+    status = 404
